@@ -49,7 +49,7 @@ lena_sobel_short.bmp
 <img width="441" alt="Screen Shot 2021-03-15 at 9 46 05 PM" src="https://user-images.githubusercontent.com/76727373/111163175-d997d000-85d7-11eb-883a-0c83f42c0c60.png">
 
   
-I apply my program in image after sobel process. The difference is obvious. The one on the left in before and the one on the right is after.
+I apply my program in image after sobel process. The difference is obvious. The one on the left is before and the one on the right is after.
 
 # Discussions and conclusions.
 
