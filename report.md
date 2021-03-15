@@ -23,7 +23,7 @@ In main.cpp file, most of the code remain unchanged. I only add three sc_fifo: i
 
 Testbench.cpp
 
-In Testbench.cpp, I alter do_sobel function by removing “total” variable and replacing it with three variables: o_r, o_g, o_b. Moreover, I apply min and max function in target_bitmap to avoid values over 255 or under 0. I made those modification so that my program can generate colored images rather than gray images. Besides, values form filter process will be added bias and be divided by factor to meet the requirements of gaussian blur. By using fifo my program can do the filtering in another systemC process. 
+In Testbench.cpp, I alter do_sobel function by removing “total” variable and replacing it with three variables: o_r, o_g, o_b. Moreover, I apply min and max function in target_bitmap to avoid values over 255 or under 0. I made those modification so that my program can generate colored images rather than gray images. Besides, values from filter process will be added bias and be divided by factor to meet the requirements of gaussian blur. By using fifo my program can do the filtering in another systemC process. 
 
 
 ![image](https://user-images.githubusercontent.com/76727373/111162981-a5bcaa80-85d7-11eb-845d-16ad142d84ea.png)
