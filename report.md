@@ -30,7 +30,7 @@ In Testbench.cpp, I alter do_sobel function by removing “total” variable and
 
 SobelFilter.cpp
 
-In SobelFilter.cpp, I changed the mask and the calculation process so that it can apply the mask on red, green, and blue separately, instead of making those colors gray in the previous process. 
+In SobelFilter.cpp, I changed the mask and the calculation process so that it can apply the mask on red, green, and blue separately, instead of merging those colors to gray in the previous process. 
 
 # Additional features of your design and models
 
