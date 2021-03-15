@@ -6,6 +6,7 @@ The problem has two requirments. Firstly, it requires us to implement gaussian b
   * A Output process to dump processed pixels as a BMP image.
   * Use SystemC datatype as possible for Calculation process.
   * Implement handshaking between Input and Calculation processes, and also Calculation and Output processes. 
+  
 We will discuss my solution in next section.
 
 # Implementation details (data structure, flows and algorithms)
